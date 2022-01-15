@@ -1,13 +1,13 @@
 package com.example.user.valueobjects;
 
 import com.example.user.entity.User;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Getter
+@Setter
 public class ResponseTemplateVO {
     private User user;
     private Department department;
