@@ -1,10 +1,12 @@
 package com.example.user.valueobjects;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Department {
     private Long departmentId;
 
