@@ -25,5 +25,5 @@ public class User {
 
     private String email;
 
-    private Long departmetId;
+    private Long departmentId;
 }
